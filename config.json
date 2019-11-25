@@ -1,0 +1,29 @@
+{
+    "server": {
+        "port": 8003
+    },
+    "app": {
+        "apiPrefix" : ""
+    },
+    "credentials": {
+        "apikey": "RIw8waAlvIHVXhP1YXa2lOuQ3XKXAUgmeN7EISNpAG0=",
+        "appId": "cs-c3c31830-c020-5f12-ab2b-1d87757aeace"
+    },
+    "findIntent":{
+        "URL": "https://bots.kore.ai/api/v1.1/rest/streams/st-f3ee0a9c-85f3-5d53-aa18-f1f6431307b9/findIntent",
+        "TOKEN": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhcHBJZCI6ImNzLTU4ZDc0YzBjLTdmNDUtNTdjYS04NTZlLTA0ZWU3OTFjZDViYyJ9.aGaRdUeJ873IQvlONTRFB4LznW0pRAicTn29QNhWxGY"
+    },
+    "redis": {
+        "options": {
+            "host": "localhost",
+            "port": 6379
+        },
+        "available": false
+    },
+    "examples" : {
+        "mockServicesHost"  : "http://localhost:8004"
+    },
+    "liveagentlicense": "8947569",
+    "supportsMessageAck": true,
+    "languages":["en","de"]
+}
